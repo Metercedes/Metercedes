@@ -11,14 +11,15 @@ its own data unreadable. Those distinctions are what the repositories below are 
 ### Detection and response
 
 **[detection-engineering-lab](https://github.com/Metercedes/detection-engineering-lab)** —
-15 Sigma detections for Windows, Linux and authentication telemetry, with an evaluator I wrote so
-every rule can be proved against telemetry offline. Each rule ships the events it must match and a
-benign baseline it must not. 18 ATT&CK techniques, 138 tests.
+15 Sigma detections for Windows, Linux and authentication telemetry, with an offline evaluator so
+every rule can be validated against deterministic telemetry without a SIEM. Each rule ships the
+events it must match and a benign baseline it must not. 18 ATT&CK techniques, 138 tests.
 
 **[sentinel-kql-detections](https://github.com/Metercedes/sentinel-kql-detections)** —
 10 Microsoft Sentinel analytics rules and 3 hunting queries across Entra ID, Defender and the
-Windows Security log, plus a static analyser that resolves every column reference against the
-table schemas. A mistyped column makes a Sentinel rule return nothing forever without any error.
+Windows Security log, plus a static analyser that resolves every column reference against
+checked-in table schemas. A mistyped column makes a Sentinel rule return nothing forever without
+any error. 14 ATT&CK techniques, 68 tests.
 
 **[soc-triage-toolkit](https://github.com/Metercedes/soc-triage-toolkit)** —
 Turns a reported phishing message into an analyst report: which headers disagree, where it really
