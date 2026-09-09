@@ -13,7 +13,7 @@ its own data unreadable. Those distinctions are what the repositories below are 
 **[detection-engineering-lab](https://github.com/Metercedes/detection-engineering-lab)** —
 15 Sigma detections for Windows, Linux and authentication telemetry, with an offline evaluator so
 every rule can be validated against deterministic telemetry without a SIEM. Each rule ships the
-events it must match and a benign baseline it must not. 18 ATT&CK techniques, 138 tests.
+events it must match and a benign baseline it must not. 18 ATT&CK techniques, 139 tests.
 
 **[sentinel-kql-detections](https://github.com/Metercedes/sentinel-kql-detections)** —
 10 Microsoft Sentinel analytics rules and 3 hunting queries across Entra ID, Defender and the
